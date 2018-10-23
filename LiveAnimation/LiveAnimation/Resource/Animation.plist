@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Animation_邮轮</string>
+	<string>Animation_岛屿</string>
+	<string>Animation_心花怒放</string>
+	<string>Animation_小树</string>
+	<string>Animation_梅花</string>
+	<string>Animation_海豚</string>
+	<string>Animation_赞</string>
+	<string>Animation_色眯眯</string>
+	<string>Animation_爱心</string>
+	<string>Animation_元宝</string>
+	<string>Animation_love</string>
+	<string>Animation_流星雨</string>
+	<string>Animation_巧克力</string>
+	<string>Animation_爆米花</string>
+</array>
+</plist>

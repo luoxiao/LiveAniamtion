@@ -18,6 +18,21 @@
 		39A04D43217F221E002D76ED /* ELAnimationScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A04D3A217F221E002D76ED /* ELAnimationScene.m */; };
 		39A04D44217F221E002D76ED /* ELAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A04D3C217F221E002D76ED /* ELAnimationView.m */; };
 		39A04D45217F221E002D76ED /* ELAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A04D40217F221E002D76ED /* ELAnimationManager.m */; };
+		39A0515A217F26E2002D76ED /* Animation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39A05159217F26E2002D76ED /* Animation.plist */; };
+		39A055D4217F3596002D76ED /* Animation_色眯眯 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055C6217F3595002D76ED /* Animation_色眯眯 */; };
+		39A055D5217F3596002D76ED /* Animation_梅花 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055C7217F3595002D76ED /* Animation_梅花 */; };
+		39A055D6217F3596002D76ED /* Animation_小树 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055C8217F3595002D76ED /* Animation_小树 */; };
+		39A055D7217F3596002D76ED /* Animation_海豚 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055C9217F3595002D76ED /* Animation_海豚 */; };
+		39A055D8217F3596002D76ED /* Animation_心花怒放 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055CA217F3596002D76ED /* Animation_心花怒放 */; };
+		39A055D9217F3596002D76ED /* Animation_巧克力 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055CB217F3596002D76ED /* Animation_巧克力 */; };
+		39A055DA217F3596002D76ED /* Animation_邮轮 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055CC217F3596002D76ED /* Animation_邮轮 */; };
+		39A055DB217F3596002D76ED /* Animation_岛屿 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055CD217F3596002D76ED /* Animation_岛屿 */; };
+		39A055DC217F3596002D76ED /* Animation_赞 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055CE217F3596002D76ED /* Animation_赞 */; };
+		39A055DD217F3596002D76ED /* Animation_love in Resources */ = {isa = PBXBuildFile; fileRef = 39A055CF217F3596002D76ED /* Animation_love */; };
+		39A055DE217F3596002D76ED /* Animation_爆米花 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055D0217F3596002D76ED /* Animation_爆米花 */; };
+		39A055DF217F3596002D76ED /* Animation_元宝 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055D1217F3596002D76ED /* Animation_元宝 */; };
+		39A055E0217F3596002D76ED /* Animation_爱心 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055D2217F3596002D76ED /* Animation_爱心 */; };
+		39A055E1217F3596002D76ED /* Animation_流星雨 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055D3217F3596002D76ED /* Animation_流星雨 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +57,21 @@
 		39A04D3E217F221E002D76ED /* ELAnimationScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELAnimationScene.h; sourceTree = "<group>"; };
 		39A04D3F217F221E002D76ED /* ELAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELAnimationView.h; sourceTree = "<group>"; };
 		39A04D40217F221E002D76ED /* ELAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELAnimationManager.m; sourceTree = "<group>"; };
+		39A05159217F26E2002D76ED /* Animation.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Animation.plist; sourceTree = "<group>"; };
+		39A055C6217F3595002D76ED /* Animation_色眯眯 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Animation_色眯眯"; sourceTree = "<group>"; };
+		39A055C7217F3595002D76ED /* Animation_梅花 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Animation_梅花"; sourceTree = "<group>"; };
+		39A055C8217F3595002D76ED /* Animation_小树 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Animation_小树"; sourceTree = "<group>"; };
+		39A055C9217F3595002D76ED /* Animation_海豚 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Animation_海豚"; sourceTree = "<group>"; };
+		39A055CA217F3596002D76ED /* Animation_心花怒放 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Animation_心花怒放"; sourceTree = "<group>"; };
+		39A055CB217F3596002D76ED /* Animation_巧克力 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Animation_巧克力"; sourceTree = "<group>"; };
+		39A055CC217F3596002D76ED /* Animation_邮轮 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Animation_邮轮"; sourceTree = "<group>"; };
+		39A055CD217F3596002D76ED /* Animation_岛屿 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Animation_岛屿"; sourceTree = "<group>"; };
+		39A055CE217F3596002D76ED /* Animation_赞 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Animation_赞"; sourceTree = "<group>"; };
+		39A055CF217F3596002D76ED /* Animation_love */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Animation_love; sourceTree = "<group>"; };
+		39A055D0217F3596002D76ED /* Animation_爆米花 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Animation_爆米花"; sourceTree = "<group>"; };
+		39A055D1217F3596002D76ED /* Animation_元宝 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Animation_元宝"; sourceTree = "<group>"; };
+		39A055D2217F3596002D76ED /* Animation_爱心 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Animation_爱心"; sourceTree = "<group>"; };
+		39A055D3217F3596002D76ED /* Animation_流星雨 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Animation_流星雨"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +115,7 @@
 				39A04D29217F20BD002D76ED /* LaunchScreen.storyboard */,
 				39A04D2C217F20BD002D76ED /* Info.plist */,
 				39A04D2D217F20BD002D76ED /* main.m */,
+				39A04D46217F2683002D76ED /* Resource */,
 			);
 			path = LiveAnimation;
 			sourceTree = "<group>";
@@ -112,6 +143,28 @@
 				39A04D3C217F221E002D76ED /* ELAnimationView.m */,
 			);
 			path = AnimationManager;
+			sourceTree = "<group>";
+		};
+		39A04D46217F2683002D76ED /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				39A055D2217F3596002D76ED /* Animation_爱心 */,
+				39A055D0217F3596002D76ED /* Animation_爆米花 */,
+				39A055CD217F3596002D76ED /* Animation_岛屿 */,
+				39A055C9217F3595002D76ED /* Animation_海豚 */,
+				39A055D3217F3596002D76ED /* Animation_流星雨 */,
+				39A055C7217F3595002D76ED /* Animation_梅花 */,
+				39A055CB217F3596002D76ED /* Animation_巧克力 */,
+				39A055C6217F3595002D76ED /* Animation_色眯眯 */,
+				39A055C8217F3595002D76ED /* Animation_小树 */,
+				39A055CA217F3596002D76ED /* Animation_心花怒放 */,
+				39A055CC217F3596002D76ED /* Animation_邮轮 */,
+				39A055D1217F3596002D76ED /* Animation_元宝 */,
+				39A055CE217F3596002D76ED /* Animation_赞 */,
+				39A055CF217F3596002D76ED /* Animation_love */,
+				39A05159217F26E2002D76ED /* Animation.plist */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,8 +225,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				39A04D2B217F20BD002D76ED /* LaunchScreen.storyboard in Resources */,
+				39A055E0217F3596002D76ED /* Animation_爱心 in Resources */,
+				39A055D6217F3596002D76ED /* Animation_小树 in Resources */,
+				39A055D5217F3596002D76ED /* Animation_梅花 in Resources */,
+				39A055D4217F3596002D76ED /* Animation_色眯眯 in Resources */,
+				39A055D7217F3596002D76ED /* Animation_海豚 in Resources */,
+				39A055DA217F3596002D76ED /* Animation_邮轮 in Resources */,
+				39A055DC217F3596002D76ED /* Animation_赞 in Resources */,
+				39A055E1217F3596002D76ED /* Animation_流星雨 in Resources */,
+				39A055DD217F3596002D76ED /* Animation_love in Resources */,
+				39A0515A217F26E2002D76ED /* Animation.plist in Resources */,
+				39A055D8217F3596002D76ED /* Animation_心花怒放 in Resources */,
 				39A04D28217F20BD002D76ED /* Assets.xcassets in Resources */,
+				39A055DF217F3596002D76ED /* Animation_元宝 in Resources */,
+				39A055DB217F3596002D76ED /* Animation_岛屿 in Resources */,
 				39A04D26217F20BC002D76ED /* Main.storyboard in Resources */,
+				39A055D9217F3596002D76ED /* Animation_巧克力 in Resources */,
+				39A055DE217F3596002D76ED /* Animation_爆米花 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
