@@ -1,0 +1,39 @@
+{
+  "NameType" : "Island",
+  "Parameter" : {
+    "FlagRotate" : "0.2",
+    "KeyTimes" : [
+      "0",
+      "0.4",
+      "0.6",
+      "1"
+    ],
+    "StreamTime" : "1",
+    "StreamDuration" : "3",
+    "SmallParam" : {
+      "SmallFloat" : "7",
+      "Scale" : "0.66",
+      "Duration" : "2",
+      "BeginTime" : "3"
+    },
+    "StreamRemove" : "5.2",
+    "WaterOneShow" : "1",
+    "WaterTwoShow" : "1.5",
+    "StreamAnimationTime" : "4",
+    "StreamFrame" : {
+      "scaleH" : "0.6",
+      "y" : "150",
+      "x" : "20",
+      "height" : "115",
+      "width" : "174"
+    },
+    "StreamShow" : "1.5",
+    "LocusParam" : {
+      "kEndX" : "164",
+      "kHigFloat" : "40",
+      "Duration" : "4",
+      "kEndY" : "0"
+    },
+    "StreamRotate" : "0.03"
+  }
+}

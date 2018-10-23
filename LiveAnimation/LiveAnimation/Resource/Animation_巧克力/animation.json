@@ -1,0 +1,7 @@
+{
+  "NameType" :"Sweets food",
+  "AnimationType" : "autoPlay",
+  "Parameter" : {
+     "Duration" : "3.7"
+  }
+}

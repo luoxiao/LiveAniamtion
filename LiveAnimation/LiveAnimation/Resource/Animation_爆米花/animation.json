@@ -1,0 +1,8 @@
+{
+  "NameType" :"Popcorn",
+  "AnimationType" : "autoPlay",
+  "Parameter" : {
+     "Duration" : "3.5"
+
+  }
+}

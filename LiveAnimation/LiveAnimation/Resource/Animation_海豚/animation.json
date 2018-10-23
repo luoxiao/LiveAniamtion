@@ -1,0 +1,8 @@
+{
+  "NameType" :"Porpoise",
+  "AnimationType" : "autoPlay",
+  "Parameter" : {
+     "Duration" : "3.6",
+     "Repeat" : "2"
+  }
+}

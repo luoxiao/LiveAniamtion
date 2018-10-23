@@ -1,0 +1,8 @@
+{
+  "NameType" :"爱你呦",
+  "AnimationType" : "autoPlay",
+  "Parameter" : {
+     "Duration" : "2.6",
+     "Repeat" : "2"
+  }
+}
