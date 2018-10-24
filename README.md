@@ -1,5 +1,7 @@
-# <center>LiveAniamtion</center>
+
 <img src="https://github.com/luoxiao/LiveAniamtion/blob/master/scrrenshot/logo.png?raw=true" width=100 height=100 />
+
+# LiveAniamtion
 
 iOS直播动画，特效动画，礼物动画。
 
