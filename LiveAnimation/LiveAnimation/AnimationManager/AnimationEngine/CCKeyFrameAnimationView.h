@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-/**
- 关键帧动画 view 解决内存暴涨问题
- */
 @interface CCKeyFrameAnimationView : UIView
 @property (nullable, nonatomic, copy) NSArray<UIImage *> *animationImages;
 @property (nonatomic) NSTimeInterval animationDuration;

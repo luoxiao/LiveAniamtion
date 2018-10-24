@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "UIAnimationVC.h"
+#import "UILiveViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -77,7 +77,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    UIAnimationVC *animationVC = [[UIAnimationVC alloc] init];
+    UILiveViewController *animationVC = [[UILiveViewController alloc] init];
     animationVC.animationName = _dataArr[indexPath.row];
     [self.navigationController pushViewController:animationVC animated:true];
 }

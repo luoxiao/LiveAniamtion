@@ -33,7 +33,7 @@
 		39A055DF217F3596002D76ED /* Animation_元宝 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055D1217F3596002D76ED /* Animation_元宝 */; };
 		39A055E0217F3596002D76ED /* Animation_爱心 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055D2217F3596002D76ED /* Animation_爱心 */; };
 		39A055E1217F3596002D76ED /* Animation_流星雨 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055D3217F3596002D76ED /* Animation_流星雨 */; };
-		39A055E42180199E002D76ED /* UIAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A055E32180199E002D76ED /* UIAnimationVC.m */; };
+		39A055E42180199E002D76ED /* UILiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A055E32180199E002D76ED /* UILiveViewController.m */; };
 		39A055E6218054C3002D76ED /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055E5218054C3002D76ED /* video.mp4 */; };
 		39A055E821805D8A002D76ED /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055E721805D8A002D76ED /* video2.mp4 */; };
 /* End PBXBuildFile section */
@@ -75,8 +75,8 @@
 		39A055D1217F3596002D76ED /* Animation_元宝 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Animation_元宝"; sourceTree = "<group>"; };
 		39A055D2217F3596002D76ED /* Animation_爱心 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Animation_爱心"; sourceTree = "<group>"; };
 		39A055D3217F3596002D76ED /* Animation_流星雨 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Animation_流星雨"; sourceTree = "<group>"; };
-		39A055E22180199E002D76ED /* UIAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAnimationVC.h; sourceTree = "<group>"; };
-		39A055E32180199E002D76ED /* UIAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAnimationVC.m; sourceTree = "<group>"; };
+		39A055E22180199E002D76ED /* UILiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UILiveViewController.h; sourceTree = "<group>"; };
+		39A055E32180199E002D76ED /* UILiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILiveViewController.m; sourceTree = "<group>"; };
 		39A055E5218054C3002D76ED /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		39A055E721805D8A002D76ED /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,8 +126,8 @@
 				39A04D1F217F20BC002D76ED /* AppDelegate.m */,
 				39A04D21217F20BC002D76ED /* ViewController.h */,
 				39A04D22217F20BC002D76ED /* ViewController.m */,
-				39A055E22180199E002D76ED /* UIAnimationVC.h */,
-				39A055E32180199E002D76ED /* UIAnimationVC.m */,
+				39A055E22180199E002D76ED /* UILiveViewController.h */,
+				39A055E32180199E002D76ED /* UILiveViewController.m */,
 				39A04D39217F221E002D76ED /* AnimationManager */,
 				39A04D24217F20BC002D76ED /* Main.storyboard */,
 				39A04D27217F20BD002D76ED /* Assets.xcassets */,
@@ -271,7 +271,7 @@
 				3917E7212180792000293B5D /* UIImage+keyFrameDecoder.m in Sources */,
 				39A04D43217F221E002D76ED /* ELAnimationScene.m in Sources */,
 				39A04D45217F221E002D76ED /* ELAnimationManager.m in Sources */,
-				39A055E42180199E002D76ED /* UIAnimationVC.m in Sources */,
+				39A055E42180199E002D76ED /* UILiveViewController.m in Sources */,
 				39A04D44217F221E002D76ED /* ELAnimationView.m in Sources */,
 				39A04D20217F20BC002D76ED /* AppDelegate.m in Sources */,
 			);

@@ -6,18 +6,18 @@
 //  Copyright © 2018年 luoxiao. All rights reserved.
 //
 
-#import "UIAnimationVC.h"
+#import "UILiveViewController.h"
 #import "ELAnimationManager.h"
 #import <AVFoundation/AVFoundation.h>
 
-@interface UIAnimationVC ()
+@interface UILiveViewController ()
 
 @property (nonatomic, strong) AVPlayer      *avPlayer;
 
 
 @end
 
-@implementation UIAnimationVC
+@implementation UILiveViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIAnimationVC : UIViewController
+@interface UILiveViewController : UIViewController
 
 @property (nonatomic,strong) NSString *animationName;
 
