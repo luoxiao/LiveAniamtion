@@ -10,6 +10,7 @@ iOS直播动画，特效动画，礼物动画。
 <img src="https://github.com/luoxiao/LiveAniamtion/blob/master/scrrenshot/%E5%B2%9B%E5%B1%BF.gif?raw=true" width=200 height=400 />
 <img src="https://github.com/luoxiao/LiveAniamtion/blob/master/scrrenshot/%E9%82%AE%E8%BD%AE.gif?raw=true?raw=true" width=200 height=400 />
 
+---
 多图GIF动画
 
 <img src="https://github.com/luoxiao/LiveAniamtion/blob/master/scrrenshot/%E5%B7%A7%E5%85%8B%E5%8A%9B.gif?raw=true?raw=true?raw=true" width=200 height=400 />
