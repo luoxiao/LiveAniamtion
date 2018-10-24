@@ -2,8 +2,8 @@
 //  CCKeyFrameAnimationView.h
 //  oupai
 //
-//  Created by tc on 12/26/17.
-//  Copyright © 2017 yizhibo. All rights reserved.
+//  Created by 罗潇 on 16/6/24.
+//  Copyright © 2016年 罗潇. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -2,8 +2,8 @@
 //  UIImage+keyFrameDecoder.m
 //  test
 //
-//  Created by tc on 12/27/17.
-//  Copyright © 2017 tttt. All rights reserved.
+//  Created by 罗潇 on 16/6/24.
+//  Copyright © 2016年 罗潇. All rights reserved.
 //
 
 #import "UIImage+keyFrameDecoder.h"
