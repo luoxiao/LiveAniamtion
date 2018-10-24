@@ -45,8 +45,8 @@
     _tableView.delegate = self;
     _tableView.dataSource = self;
     [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
-}
 
+}
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
