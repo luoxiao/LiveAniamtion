@@ -1,5 +1,6 @@
 
-<img src="https://github.com/luoxiao/LiveAniamtion/blob/master/scrrenshot/logo.png?raw=true" width=100 height=100 div align=right />
+<img src="https://github.com/luoxiao/LiveAniamtion/blob/master/scrrenshot/logo.png?raw=true" width=100 height=100 div align=center />
+
 
 # LiveAniamtion
 
