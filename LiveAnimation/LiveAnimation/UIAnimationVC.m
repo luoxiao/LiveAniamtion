@@ -27,7 +27,7 @@
     [self loadVideoPlayerView];
     [self regisetNotificaiton:true];
     
-    [self performSelector:@selector(loadLocalAnimation) withObject:nil afterDelay:2];
+    [self performSelector:@selector(loadLocalAnimation) withObject:nil afterDelay:1];
 }
 
 - (void)dealloc
