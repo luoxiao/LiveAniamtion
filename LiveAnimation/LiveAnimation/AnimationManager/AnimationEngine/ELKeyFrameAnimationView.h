@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CCKeyFrameAnimationView : UIView
+@interface ELKeyFrameAnimationView : UIView
 @property (nullable, nonatomic, copy) NSArray<UIImage *> *animationImages;
 @property (nonatomic) NSTimeInterval animationDuration;
 @property (nonatomic) NSInteger      animationRepeatCount;

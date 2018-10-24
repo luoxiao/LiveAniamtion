@@ -6,7 +6,7 @@
 //  Copyright © 2016年 罗潇. All rights reserved.
 //
 
-#import "CCKeyFrameAnimationView.h"
+#import "ELKeyFrameAnimationView.h"
 #import "UIImage+keyFrameDecoder.h"
 
 #define FXRunBlockSafe(block, ...) {\
@@ -14,7 +14,7 @@ if (block) {\
 block(__VA_ARGS__);\
 }\
 }
-@interface CCKeyFrameAnimationView ()
+@interface ELKeyFrameAnimationView ()
 
 @property (nonatomic, strong) CADisplayLink *displayLink;
 
@@ -33,7 +33,7 @@ block(__VA_ARGS__);\
 @property (nonatomic, getter=isAnimating) BOOL animating;
 @end
 
-@implementation CCKeyFrameAnimationView
+@implementation ELKeyFrameAnimationView
 
 #pragma mark - 👨‍💻‍ Initialization
 - (id)initWithFrame:(CGRect)frame

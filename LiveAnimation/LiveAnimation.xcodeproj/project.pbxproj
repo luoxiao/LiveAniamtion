@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3917E7212180792000293B5D /* UIImage+keyFrameDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3917E71D2180792000293B5D /* UIImage+keyFrameDecoder.m */; };
-		3917E7222180792000293B5D /* CCKeyFrameAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3917E71E2180792000293B5D /* CCKeyFrameAnimationView.m */; };
+		3917E7222180792000293B5D /* ELKeyFrameAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3917E71E2180792000293B5D /* ELKeyFrameAnimationView.m */; };
 		39A04D20217F20BC002D76ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A04D1F217F20BC002D76ED /* AppDelegate.m */; };
 		39A04D23217F20BC002D76ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A04D22217F20BC002D76ED /* ViewController.m */; };
 		39A04D26217F20BC002D76ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A04D24217F20BC002D76ED /* Main.storyboard */; };
@@ -40,9 +40,9 @@
 
 /* Begin PBXFileReference section */
 		3917E71D2180792000293B5D /* UIImage+keyFrameDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+keyFrameDecoder.m"; sourceTree = "<group>"; };
-		3917E71E2180792000293B5D /* CCKeyFrameAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCKeyFrameAnimationView.m; sourceTree = "<group>"; };
+		3917E71E2180792000293B5D /* ELKeyFrameAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKeyFrameAnimationView.m; sourceTree = "<group>"; };
 		3917E71F2180792000293B5D /* UIImage+keyFrameDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+keyFrameDecoder.h"; sourceTree = "<group>"; };
-		3917E7202180792000293B5D /* CCKeyFrameAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCKeyFrameAnimationView.h; sourceTree = "<group>"; };
+		392A09DD21807B1D00B86986 /* ELKeyFrameAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKeyFrameAnimationView.h; sourceTree = "<group>"; };
 		39A04D1B217F20BC002D76ED /* LiveAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39A04D1E217F20BC002D76ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		39A04D1F217F20BC002D76ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -95,8 +95,8 @@
 		3917E71C2180792000293B5D /* AnimationEngine */ = {
 			isa = PBXGroup;
 			children = (
-				3917E7202180792000293B5D /* CCKeyFrameAnimationView.h */,
-				3917E71E2180792000293B5D /* CCKeyFrameAnimationView.m */,
+				392A09DD21807B1D00B86986 /* ELKeyFrameAnimationView.h */,
+				3917E71E2180792000293B5D /* ELKeyFrameAnimationView.m */,
 				3917E71F2180792000293B5D /* UIImage+keyFrameDecoder.h */,
 				3917E71D2180792000293B5D /* UIImage+keyFrameDecoder.m */,
 			);
@@ -265,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3917E7222180792000293B5D /* CCKeyFrameAnimationView.m in Sources */,
+				3917E7222180792000293B5D /* ELKeyFrameAnimationView.m in Sources */,
 				39A04D23217F20BC002D76ED /* ViewController.m in Sources */,
 				39A04D2E217F20BD002D76ED /* main.m in Sources */,
 				3917E7212180792000293B5D /* UIImage+keyFrameDecoder.m in Sources */,

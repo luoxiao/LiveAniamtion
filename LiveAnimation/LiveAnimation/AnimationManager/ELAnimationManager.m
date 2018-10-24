@@ -12,7 +12,7 @@
 #import "ELAnimationScene.h"
 #import <AVFoundation/AVFoundation.h>
 
-#import "CCKeyFrameAnimationView.h"
+#import "ELKeyFrameAnimationView.h"
 @interface ELAnimationManager ()<ELAnimationSceneDelegate,ELAnimationSceneDataSource> {
 
     ELAnimationType     _animationType;
@@ -33,7 +33,7 @@
 @property (nonnull, copy)NSString* nameText;
 @property (nonatomic, strong)NSDictionary*  info;
 
-@property (nonatomic, weak)CCKeyFrameAnimationView * autoPlayAnimationView;
+@property (nonatomic, weak)ELKeyFrameAnimationView * autoPlayAnimationView;
 
 
 - (SKView *)getAnimationView;
@@ -165,7 +165,7 @@
 
 #pragma mark - 
 
-//完成、音乐？
+//完成、音乐
 - (void)checkAnimationStatus
 {
     float totalDuration = [_info[ANIMATION_TOTAL_DURATION] floatValue] > 0 ? [_info[ANIMATION_TOTAL_DURATION] floatValue] : 3.0f;
@@ -570,7 +570,7 @@
         
         dispatch_async(dispatch_get_main_queue(), ^{
             //新增关键帧动画view 17-12-27 by 唐超 解决内存暴涨问题
-            CCKeyFrameAnimationView * animationView = [[CCKeyFrameAnimationView alloc] init];
+            ELKeyFrameAnimationView * animationView = [[ELKeyFrameAnimationView alloc] init];
             animationView.animationImages = imageSets;
             animationView.animationDuration = duration;
             animationView.contentMode = UIViewContentModeScaleAspectFit;
