@@ -35,6 +35,7 @@
 		39A055E1217F3596002D76ED /* Animation_流星雨 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055D3217F3596002D76ED /* Animation_流星雨 */; };
 		39A055E42180199E002D76ED /* UIAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A055E32180199E002D76ED /* UIAnimationVC.m */; };
 		39A055E6218054C3002D76ED /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055E5218054C3002D76ED /* video.mp4 */; };
+		39A055E821805D8A002D76ED /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055E721805D8A002D76ED /* video2.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		39A055E22180199E002D76ED /* UIAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAnimationVC.h; sourceTree = "<group>"; };
 		39A055E32180199E002D76ED /* UIAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAnimationVC.m; sourceTree = "<group>"; };
 		39A055E5218054C3002D76ED /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		39A055E721805D8A002D76ED /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 				39A055CF217F3596002D76ED /* Animation_love */,
 				39A05159217F26E2002D76ED /* AnimationList.plist */,
 				39A055E5218054C3002D76ED /* video.mp4 */,
+				39A055E721805D8A002D76ED /* video2.mp4 */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				39A04D26217F20BC002D76ED /* Main.storyboard in Resources */,
 				39A055E6218054C3002D76ED /* video.mp4 in Resources */,
 				39A055D9217F3596002D76ED /* Animation_巧克力 in Resources */,
+				39A055E821805D8A002D76ED /* video2.mp4 in Resources */,
 				39A055DE217F3596002D76ED /* Animation_爆米花 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

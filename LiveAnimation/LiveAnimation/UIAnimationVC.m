@@ -25,8 +25,14 @@
     
     [self initUI];
     [self loadVideoPlayerView];
+    [self regisetNotificaiton:true];
     
     [self performSelector:@selector(loadLocalAnimation) withObject:nil afterDelay:2];
+}
+
+- (void)dealloc
+{
+    [self regisetNotificaiton:false];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -37,6 +43,20 @@
 
 - (UIStatusBarStyle)preferredStatusBarStyle {
     return UIStatusBarStyleLightContent;
+}
+
+- (void)regisetNotificaiton:(BOOL)reg {
+    
+    if (reg) {
+        [[NSNotificationCenter defaultCenter] addObserver:self
+                                 selector:@selector(AVPlayerItemDidPlayToEndTimeNotification:)
+                                     name:AVPlayerItemDidPlayToEndTimeNotification
+                                   object:nil];
+    }
+    else {
+        [[NSNotificationCenter defaultCenter] removeObserver:self];
+    }
+    
 }
 
 /*
@@ -85,7 +105,7 @@
 
 - (void)loadVideoPlayerView {
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"video" ofType:@"mp4"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"video2" ofType:@"mp4"];
     AVPlayerItem *item = [[AVPlayerItem alloc] initWithURL:[NSURL fileURLWithPath:path]];
     AVPlayer *avPlayer = [[AVPlayer alloc] initWithPlayerItem:item];
     self.avPlayer = avPlayer;
