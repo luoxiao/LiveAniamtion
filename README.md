@@ -1,4 +1,4 @@
-# LiveAniamtion
+<center># LiveAniamtion</center>
 iOS直播动画，特效动画，礼物动画。
 
 做到动态在线配置，不需要依赖版本发布，这个方案目前在直播客户端已使用两年。
