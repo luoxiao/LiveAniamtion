@@ -18,7 +18,7 @@
 		39A04D43217F221E002D76ED /* ELAnimationScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A04D3A217F221E002D76ED /* ELAnimationScene.m */; };
 		39A04D44217F221E002D76ED /* ELAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A04D3C217F221E002D76ED /* ELAnimationView.m */; };
 		39A04D45217F221E002D76ED /* ELAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A04D40217F221E002D76ED /* ELAnimationManager.m */; };
-		39A0515A217F26E2002D76ED /* Animation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39A05159217F26E2002D76ED /* Animation.plist */; };
+		39A0515A217F26E2002D76ED /* AnimationList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39A05159217F26E2002D76ED /* AnimationList.plist */; };
 		39A055D4217F3596002D76ED /* Animation_色眯眯 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055C6217F3595002D76ED /* Animation_色眯眯 */; };
 		39A055D5217F3596002D76ED /* Animation_梅花 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055C7217F3595002D76ED /* Animation_梅花 */; };
 		39A055D6217F3596002D76ED /* Animation_小树 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055C8217F3595002D76ED /* Animation_小树 */; };
@@ -33,6 +33,8 @@
 		39A055DF217F3596002D76ED /* Animation_元宝 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055D1217F3596002D76ED /* Animation_元宝 */; };
 		39A055E0217F3596002D76ED /* Animation_爱心 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055D2217F3596002D76ED /* Animation_爱心 */; };
 		39A055E1217F3596002D76ED /* Animation_流星雨 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055D3217F3596002D76ED /* Animation_流星雨 */; };
+		39A055E42180199E002D76ED /* UIAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A055E32180199E002D76ED /* UIAnimationVC.m */; };
+		39A055E6218054C3002D76ED /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 39A055E5218054C3002D76ED /* video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,7 +59,7 @@
 		39A04D3E217F221E002D76ED /* ELAnimationScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELAnimationScene.h; sourceTree = "<group>"; };
 		39A04D3F217F221E002D76ED /* ELAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELAnimationView.h; sourceTree = "<group>"; };
 		39A04D40217F221E002D76ED /* ELAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELAnimationManager.m; sourceTree = "<group>"; };
-		39A05159217F26E2002D76ED /* Animation.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Animation.plist; sourceTree = "<group>"; };
+		39A05159217F26E2002D76ED /* AnimationList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AnimationList.plist; sourceTree = "<group>"; };
 		39A055C6217F3595002D76ED /* Animation_色眯眯 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Animation_色眯眯"; sourceTree = "<group>"; };
 		39A055C7217F3595002D76ED /* Animation_梅花 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Animation_梅花"; sourceTree = "<group>"; };
 		39A055C8217F3595002D76ED /* Animation_小树 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Animation_小树"; sourceTree = "<group>"; };
@@ -72,6 +74,9 @@
 		39A055D1217F3596002D76ED /* Animation_元宝 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Animation_元宝"; sourceTree = "<group>"; };
 		39A055D2217F3596002D76ED /* Animation_爱心 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Animation_爱心"; sourceTree = "<group>"; };
 		39A055D3217F3596002D76ED /* Animation_流星雨 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Animation_流星雨"; sourceTree = "<group>"; };
+		39A055E22180199E002D76ED /* UIAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAnimationVC.h; sourceTree = "<group>"; };
+		39A055E32180199E002D76ED /* UIAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAnimationVC.m; sourceTree = "<group>"; };
+		39A055E5218054C3002D76ED /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +113,8 @@
 				39A04D1F217F20BC002D76ED /* AppDelegate.m */,
 				39A04D21217F20BC002D76ED /* ViewController.h */,
 				39A04D22217F20BC002D76ED /* ViewController.m */,
+				39A055E22180199E002D76ED /* UIAnimationVC.h */,
+				39A055E32180199E002D76ED /* UIAnimationVC.m */,
 				39A04D39217F221E002D76ED /* AnimationManager */,
 				39A04D34217F221D002D76ED /* FXAnimationEngine */,
 				39A04D24217F20BC002D76ED /* Main.storyboard */,
@@ -162,7 +169,8 @@
 				39A055D1217F3596002D76ED /* Animation_元宝 */,
 				39A055CE217F3596002D76ED /* Animation_赞 */,
 				39A055CF217F3596002D76ED /* Animation_love */,
-				39A05159217F26E2002D76ED /* Animation.plist */,
+				39A05159217F26E2002D76ED /* AnimationList.plist */,
+				39A055E5218054C3002D76ED /* video.mp4 */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -234,12 +242,13 @@
 				39A055DC217F3596002D76ED /* Animation_赞 in Resources */,
 				39A055E1217F3596002D76ED /* Animation_流星雨 in Resources */,
 				39A055DD217F3596002D76ED /* Animation_love in Resources */,
-				39A0515A217F26E2002D76ED /* Animation.plist in Resources */,
+				39A0515A217F26E2002D76ED /* AnimationList.plist in Resources */,
 				39A055D8217F3596002D76ED /* Animation_心花怒放 in Resources */,
 				39A04D28217F20BD002D76ED /* Assets.xcassets in Resources */,
 				39A055DF217F3596002D76ED /* Animation_元宝 in Resources */,
 				39A055DB217F3596002D76ED /* Animation_岛屿 in Resources */,
 				39A04D26217F20BC002D76ED /* Main.storyboard in Resources */,
+				39A055E6218054C3002D76ED /* video.mp4 in Resources */,
 				39A055D9217F3596002D76ED /* Animation_巧克力 in Resources */,
 				39A055DE217F3596002D76ED /* Animation_爆米花 in Resources */,
 			);
@@ -256,6 +265,7 @@
 				39A04D2E217F20BD002D76ED /* main.m in Sources */,
 				39A04D43217F221E002D76ED /* ELAnimationScene.m in Sources */,
 				39A04D45217F221E002D76ED /* ELAnimationManager.m in Sources */,
+				39A055E42180199E002D76ED /* UIAnimationVC.m in Sources */,
 				39A04D41217F221E002D76ED /* UIImage+keyFrameDecoder.m in Sources */,
 				39A04D44217F221E002D76ED /* ELAnimationView.m in Sources */,
 				39A04D20217F20BC002D76ED /* AppDelegate.m in Sources */,
